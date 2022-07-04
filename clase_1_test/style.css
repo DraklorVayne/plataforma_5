@@ -1,0 +1,71 @@
+.topnav{
+    margin-top: 0px;
+    width: 1000;
+    height: 80px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+.active{
+    color: rgb(172, 172, 172);
+    margin-top: 30px;
+    padding: 60px;
+    font-size: 40px;
+
+}
+
+body, html{
+    background-color: rgb(230, 255, 219);
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+.fillnav{
+margin-top: 0px;
+white-space: nowrap;
+text-indent: -9999px;
+}
+
+.topnav a:hover {
+    color: red;
+    opacity: 200%;
+  }
+
+  .topnav, .fillnav{
+    background-color: #152715;
+    opacity: 55%;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  .topnav a.now {
+    color: white;
+  }
+  .now{
+    color: rgb(172, 172, 172);
+    margin-top: 40px;
+    padding: 60px;
+    font-size: 40px;
+}
+p{
+  text-align: center;
+  text-overflow: hidden;
+  text-size-adjust: auto;
+}
+
+body{
+  text-align: center;
+}
+hr{
+  max-width: 1600px;
+}
+ul, ol{
+  text-align: justify;
+}
+.bari{
+  text-align: justify;
+}
+.baripic{
+  text-align: justify;
+}
+
+

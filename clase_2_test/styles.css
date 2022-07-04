@@ -1,0 +1,57 @@
+/*Start of the file */
+@import url('http://fonts.cdnfonts.com/css/itc-serif-gothic-2');
+/* Remember: #ID - .CLASS */
+#vader{
+font-size: 90px;
+font-style: italic;
+}
+
+.imperio{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#luke{
+    font-size: 90px;
+    font-style: italic;
+}
+
+.rebeldes{
+    background-color: rgba(0, 17, 255, 0.5);
+}
+
+.soldados{
+    border-radius: 2px;
+    border-style: dashed;
+    letter-spacing: 4px;
+}
+
+.apoyo{
+    text-align: center;
+}
+
+.naves{
+    
+    text-transform: uppercase;
+}
+
+.droides{
+    text-align: center;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+    background-color: black;
+    font-family: 'ITC Serif Gothic', sans-serif;
+    font-family: 'ITC Serif Gothic Light', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: auto;
+}
+ul, ol{
+    list-style-type: none;
+}
+/* End of the file */
