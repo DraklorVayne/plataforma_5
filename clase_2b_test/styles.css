@@ -1,0 +1,42 @@
+* {
+    border-radius: 5px;
+    border: dotted black;
+    text-align: center;
+}
+
+ol, li{
+    color:red
+}
+ol li{ /*ESTO SIRVE PARA PONER ELEMENTOS DENTRO DE OTRO ELEMENTO*/
+    color:blue
+}
+
+br+h2{ /*ESTO SIRVE PARA PONER ELEMENTOS DESPUES DE OTRO ELEMENTO*/
+    font-size: 300%;
+}
+
+a[href="google.com"]{
+    background-color: yellow;
+}
+a[href="facebook.com"]{
+    background-color: purple;
+}
+
+ol *{
+    font-family: sans-serif;
+    font-size: 500%;
+}
+ol .Excepcion{
+    font-size: 100%;
+    font-family: Arial;
+    font-style: italic;
+}
+p > span{
+    color: purple
+}
+p.Excepcion{
+    color: brown;
+}
+.Excepcion{
+    color:pink;
+}
