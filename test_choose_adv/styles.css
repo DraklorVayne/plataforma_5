@@ -1,0 +1,121 @@
+*{
+    text-align: center;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scrollbar-width: 0px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#background-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.scene_space{
+    width: auto;
+    height: 500px;
+}
+
+.newscene_space{
+    width: auto;
+    height: 800px;
+}
+.info{
+    color:#D1345B;
+}
+.bad_ending{
+    color:rgb(156, 19, 19);
+}
+.bad_ending_p{
+    font-size: 20px;
+}
+.telon{
+    background-image: 
+    url("https://ayuda.ch-sistemas.com/wp-content/uploads/2018/05/cabina4.png");
+    width: auto;
+    height: 1000px;
+    color: rgba(255, 255, 255, 0.0);
+}
+
+.scene{
+    margin-top: auto;
+}
+
+span{
+    color:red;
+}
+
+.fire{
+    background-image:
+    url("https://beclinic.cl/wp-content/uploads/2019/08/Fire-Free-Download-PNG.png");
+    align-items: center;
+}
+
+.breakspace{
+    width: auto;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.ilustrative{
+    width: auto;
+    height: 400px;
+}
+
+.scene{
+    transition: 2s all ease;
+}
+button{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: rgb(97, 97, 97);
+    height: 45px;
+    width: auto;
+    background-image: 
+    url("https://fixthephoto.com/images/content/wooden-board-texture-111613649565.jpg");
+}
+
+body + div{ /* THIS REMOVE'S ONLY FOR OPERA THE 2D PLANE VIDEO ||| DONT REMOVE */
+    display: none !important;
+  }
+
+  a:hover{
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: max-content;
+}
+
+button:hover{
+    border-color: gold;
+    color:gold;
+}
+a{
+    color: rgb(197, 196, 196);
+}
+.bad_ending_a:hover{
+    color: rgb(255, 0, 0);
+    width: auto;
+    height: max-content;
+}
+.bad_ending_a{
+    color:rgb(240, 240, 240);
+}
+.bad_ending_b:hover{
+    border-color:red;
+}
+
