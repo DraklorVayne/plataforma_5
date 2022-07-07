@@ -118,4 +118,12 @@ a{
 .bad_ending_b:hover{
     border-color:red;
 }
+.secret{
+    color:rgb(255, 253, 147);
+    border-color: rgb(255, 253, 147);
+}
+.win{
+    color: greenyellow;
+    border-color: greenyellow;
+}
 
