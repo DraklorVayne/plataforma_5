@@ -1,0 +1,32 @@
+div{
+    border: 1px solid;
+    border-color:brown;
+    height: 150px;
+}
+
+#div1{
+    position: static;
+}
+#div2{
+    position: relative;
+    top: 220%;
+    left: 50%;
+    background-color: yellow;
+}
+#div3{
+    position: fixed;
+    background-color: lime;
+    top: 30%;
+    left: 20%;
+    z-index: 2;
+}
+#div4{
+    position: relative;
+}
+#div5{
+    background-color: rgba(137, 43, 226, 0.356);
+    position: absolute;
+    bottom: 12%;
+    right: 20%;
+    overflow: hidden;
+}

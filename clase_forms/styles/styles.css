@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    color: wheat;
+    font-size: 22px;
+}
+input{
+    background-color: black;
+    color:white;
+    border: solid 2px;
+    border-color: grey;
+}
+label{
+    color:wheat;
+}
+::placeholder{
+    color: grey;
+}
+.tyc{
+    color: lightblue;
+}
+select{
+    color:grey;
+    border: solid 2px red;
+}
+select:hover{
+    color: red;
+    border: solid 2px red;
+}
+input:focus{
+    color: red;
+    border: solid 2px red;
+}
+input:active{
+    color: red;
+    border: solid 2px red;
+}
+iframe{
+    border: solid 10px;
+    border-color: brown;
+}
+

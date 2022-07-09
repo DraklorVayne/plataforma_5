@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - InstaPets</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<div class="register">
+    <br>
+    <h1>
+        Bienvenid@ a InstaPets
+    </h1>
+    <p>
+        InstaPets es una red social que te permite compartir con 
+        <br>
+        otros usuarios, de manera instantanea, contenido sobre tus mascotas.   
+        <br> 
+    </p>
+        <br>
+    <h2>
+        Puedes registrarte simplemente rellenando <br>
+         el formulario que se encuentra debajo
+    </h2>
+<form action="https://formspree.io/f/myyoqpnq" method="post">
+    <label for="name">Nombre:<span>*</span>
+        <input id="name" type="text" name="nombre" placeholder="Nombre de tu mascota" maxlength="18" required></label> 
+    <br>
+    <br>
+<label for="gender">Genero de la Mascota: <br>
+    <label for="gender">Macho<input type="radio" name="genero" value="macho" checked>
+    </label>
+    <label for="gender">Hembra<input type="radio" name="genero" value="hembra">
+    </label>
+</label>
+<br>
+    <br>
+<label for="whatpet">¿Que tipo de mascota tienes?
+    <select name="tipo" id="whatpet">
+        <option value="meow">Cat</option>
+        <option value="wof">Dog</option>
+        <option value="hiiiiaa">Turtle</option>
+        <option value="jumpi jumpp">Rabbit</option>
+    </select>
+</label>
+    <br>
+    <br>
+        <label for="user">Usuario:<span>*</span>
+            <input id="user" type="text" name="usuario" placeholder="Apodo de la cuenta" maxlength="12"required> </label>
+    <br>
+    <br>
+        <label for="pwd">Contraseña:<span>*</span>
+            <input id="pwd" type="password" name="clave" placeholder="Contraseña de la cuenta" maxlength="12" minlength="8" required></label>
+    <br>
+    <br>
+    <label for="desc">Contanos como es tu mascota:<br>
+        <textarea name="desc" id="desc" cols="40" rows="10"></textarea></label>
+        <br>
+    <br>
+    <label for="tyc" style="color: white;">¿Aceptas las <a class="tyc" href="./tyc">bases y condiciones</a>?
+        <input class="tyc" name="terms" value="yes" type="checkbox" required>
+    </label>
+    <br>
+
+    <br>
+    <br>
+        <input type="submit" href="#"></label>
+</form>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.607922580295!2d-58.374864785140296!3d-34.58878606421447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccba4261792d1%3A0xab9a879048920ba4!2sTerminal%20de%20Omnibus%20Retiro!5e0!3m2!1ses!2sar!4v1657283521990!5m2!1ses!2sar" 
+width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/1002604" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:500px; height:500px"></iframe>
+<p>
+    Lorem ipsum dolor sit, amet conse ctetur adipisicing elit. Minima suscipit ratione est explicabo voluptatum voluptates, obcaecati necessitatibus quos iure corrupti alias dolorem hic quas, excepturi provident! Sequi, quas cum. Cum.       
+</p>
+<a href="mailto:brunobuona@forgethecode.com?subject=Testing!" target="_blank">Mandar email</a>
+</div>
+</body>
+</html>

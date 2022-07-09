@@ -1,0 +1,35 @@
+div{
+height: 150px;
+border: 3px solid #092454;
+}
+
+#div1{
+background-color: #e69ef2;
+position: static;
+}
+#div2{
+background-color: #62d0ff;
+position: relative;
+top: 50px;
+left: 100px;
+}
+#div3{
+background-color: #ced5db;
+position: fixed;
+width: 25%;
+bottom: 50px;
+right: 100px;
+z-index: 2;
+}
+#div4{
+background-color: #85e38d;
+position: relative;
+}
+#div5{
+    background-color: #d4c200;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}

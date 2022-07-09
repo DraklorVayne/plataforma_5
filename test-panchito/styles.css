@@ -1,0 +1,28 @@
+html{
+    margin-top: 15%;
+}
+div{
+    background-color: antiquewhite;
+    height: 70px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 0px auto;
+
+}
+.pan{
+    background-color: rgb(238, 178, 89);
+    border-radius: 50px;
+    width: 480px;
+}
+#salchicha{
+    background-color: rgb(163, 43, 43);
+
+
+}
+#tapa{
+    border-bottom: 10px solid rgb(179, 138, 77); 
+}
+#piso{
+    border-top: 10px solid rgb(179, 138, 77); 
+
+}
