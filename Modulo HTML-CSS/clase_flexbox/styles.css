@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.flex-container{
+    flex-flow: row nowrap; /*Direccion*/
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    padding: 10px;
+    border: 2px solid black;
+}
+.flex-container div{
+    background-color: burlywood;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.grow{
+    flex-grow: 1;
+}
+
+
+

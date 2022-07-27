@@ -1,0 +1,20 @@
+.verde{
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.rosa{
+    background-color: lightpink;
+    border: 1px solid black;
+}
+.gris{
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.naranja{
+    background-color: orange;
+    border: 1px solid black;
+}
+.cielo{
+    background-color: aqua;
+    border: 1px solid black;
+}
