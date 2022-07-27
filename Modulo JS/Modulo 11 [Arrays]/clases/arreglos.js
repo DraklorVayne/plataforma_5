@@ -31,7 +31,7 @@ ultimoElemento
 
 // Metodos | Push -> Mete arrays dentro de un arreglo. | Pop -> Saca un arrey de un arreglo global || estos se ejecutan al final del array.
 // Pop no debe llevar argumentos y solo quitará 1 elemento por vez.
-Los valores de pop deben guardarse inmediatamente o se perderán permanentemente.
+//Los valores de pop deben guardarse inmediatamente o se perderán permanentemente.
 
 // metodos extras: existe shift y unshift que hacen lo mismo pero al principio del arreglo.
 nombreArreglo.unshift(elemento/s)
